@@ -110,10 +110,10 @@ LimitMEMLOCK=infinity
 
 ## 4. 启动服务
 
-`
+```
 systemctl daemon-reload
 systemctl restart elasticsearch
 systemctl enable  elasticsearch
 
-`
+```
 
