@@ -68,16 +68,7 @@ network.host: 172.16.118.1
 transport.tcp.connect_timeout: 30s
 transport.ping_schedule: 5s
 transport.tcp.compress: true
- 
-discovery.zen.ping.unicast.hosts: ['172.16.118.1','172.16.118.2','172.16.118.3']
-discovery.zen.join_timeout: 10s
-discovery.zen.minimum_master_nodes: 2
-discovery.zen.ping_timeout: 100s
-discovery.zen.fd.ping_timeout: 100s
- 
-gateway.expected_nodes: 2
-gateway.recover_after_nodes: 2
-gateway.recover_after_time: 10m
+
  
 action.destructive_requires_name: true
  
